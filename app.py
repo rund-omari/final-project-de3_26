@@ -51,7 +51,7 @@ with st.sidebar:
     st.caption(source_name)
     st.markdown("[Get real Kaggle dataset](https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clothing-reviews)")
     st.divider()
-    st.caption("No ML model is trained. This is a Data Preparation showcase.")
+
 
 if st.session_state.get("dataset_sig") != signature:
     st.session_state["dataset_sig"] = signature
